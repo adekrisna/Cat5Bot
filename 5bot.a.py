@@ -30,8 +30,8 @@ ks = LINETCR.LINE()
 ks.login(token='')
 ks.loginResult()
 
-satpam = LINETCR.LINE()
-satpam.login(token='')#
+satpam = LINETCR.LINE() # 
+satpam.login(token='')#6
 #satpam.login(qr=True)
 satpam.loginResult()
 
@@ -112,10 +112,10 @@ Dmid = ks.getProfile().mid #Chooper
 Smid = satpam.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid]
-induk=[mid,"uece14c5ae46691f48f03c4fd331c3fd8"]
+induk=[mid,"u7f94f517d3f2d97718f4f49258a7ef7c"]
 Creator="u31ef22df7f538df1d74dc7f756ef1a32"
 admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1","u7f94f517d3f2d97718f4f49258a7ef7c","u76ecf3d6b5c075978ddcdd464c05ade7","u0e881fcbda6a0d82974a775f8015f4fe","u0e2535e038eabba176f9181c0352f847","ue37486a841ce4944a764bf02fe730c60","u8197906b2cc18e992fd6bd63d3dac867"] #Krisna,kris,
-owner=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
+owner=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1","u7f94f517d3f2d97718f4f49258a7ef7c","u76ecf3d6b5c075978ddcdd464c05ade7","u0e881fcbda6a0d82974a775f8015f4fe","u0e2535e038eabba176f9181c0352f847","ue37486a841ce4944a764bf02fe730c60","u8197906b2cc18e992fd6bd63d3dac867"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -583,11 +583,6 @@ def bot(op):
                #if op.param2 not in admin and Bots : # Awalnya admin doang
                    #random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
         #------Joined User Kick start------#
-        if op.type == 19: #Member Ke Kick
-          if op.param2 not in Bots:
-            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
-            random.choice(KAC).inviteIntoGroup(op.param1,[op.param3])
-              
         if op.type == 19: #Member Ke Kick
           if op.param2 in induk:
             pass
