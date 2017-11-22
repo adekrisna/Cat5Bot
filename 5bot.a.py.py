@@ -7,31 +7,31 @@ import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='EnCl4CMfLQwPFEd5ONwc.F5t1f9pY2xCy9psswkFVFa.moVtxVxgo0xRnOghH0BfGoyf765yAisWQtAtWaNBn2E=')
+cl.login(token='')
 cl.loginResult()
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='Em3RCjt6TWfvmtkPoii7.DUZZ1RxaDzEn3n1gtawT5W.kRclcq6q2SBcAYiB5rRVAdNtia0bYHUVDIlHJYUYJdw=')
+ki.login(token='')
 ki.loginResult()
 
 kk = LINETCR.LINE()
 #kk.login(qr=True)
-kk.login(token='EmIME9ykSHo3o0NY8WPe.dOGFY9PQdykxsNDFGbx0+G.JuvQdBrDOYmkvbz2rLyZoGjBf3ZE1LspFASmmRwMcBI=')
+kk.login(token='')
 kk.loginResult()
 
 kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token='EnDiHNqn25s2F8Hvhse7.dIu14dJQU6f2/rGCa1l4rW.Lj3XoB5unOAV7RAZqktmBS+b1eHc0xy6hauPcqxozDg=')
+kc.login(token='')
 kc.loginResult()
 
 ks = LINETCR.LINE()
 #kr.login(qr=True)
-ks.login(token='EmF7oN5WxMBGmNkQqyB0.43sgQehosusNzl8c+Nmmya.metYNRXqlLGRdjs/ks3grO1GkBLbOhDllTXh0gFmKKo=')
+ks.login(token='')
 ks.loginResult()
 
-satpam = LINETCR.LINE() # 
-satpam.login(token='Emt22Bx7GfRl55eaCsR7.GzEqAYZbJPKV1R1J09RizW.pDdOlc65BZ/UNtboKr2PzBaeX/GodOpG3ZQeImwRpDY=')#6
+satpam = LINETCR.LINE()
+satpam.login(token='')#
 #satpam.login(qr=True)
 satpam.loginResult()
 
